@@ -1,0 +1,584 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="en">
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<head>
+
+<title>Real Estate</title>
+<link rel="stylesheet" href="index.css"/>
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+crossorigin="anonymous"
+/>
+<script src="index.js"></script>
+
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+></script>
+<script type="text/javascript">
+  (function () {
+	emailjs.init("bmRC8q6OqkDaq6ABy");
+  })();
+</script>
+
+</head>
+
+<body>
+<canvas id = "canvas">
+
+</canvas>
+<div id ="photo-slider">
+   <div class="image-slideshow">
+      <div class="images1">
+      <img src="DSCF0170.jpg" alt="house">
+      </div>        
+      <div class="images1">
+      <img src="DSCF0169.jpg" alt="house2">
+      </div>        
+      <div class="images1">
+      <img src="DSCF0151.jpg" alt="house3">
+      </div>
+    </div>
+		
+</div>
+
+<div id = "index">
+	<div class="fuc1">
+	<a href= "#anchor1">about the website</a>
+	</div>
+	<div class="fuc2">
+	<a href= "#anchor2">property-listing</a>
+	</div>
+	<div class="fuc3">
+	<a href= "#anchor3">furniture and accessories</a>
+	</div>
+	<div class="fuc4">
+	<a href= "#anchor4">contact me</a>
+	</div>
+</div>
+<p id="anchor1"></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<section id = "introduction">
+	<h id="something">
+	About the Website
+	</h>
+	 <p>
+	Finding an apartment for a foreigner living in Japan can be a daunting task.
+ 	</p><br>
+	<p>
+	The language barrier and the cultural customs are a constant challenge.
+	</p><br>
+	<p>
+	Therefore, it is easy for many foreigners to get taken advantage by many Japanese realtors.
+	</p>
+	<br>
+	<p>
+	Then why not have Larry Chan come and be your real estate agent!
+	</p>
+	<br>
+	<p>
+	He will be sure to make your process of finding you a home a safe and easy process so that you can enjoy your life in Japan.
+	</p>
+	<p id="anchor2"></p>
+	<p></p>
+<p></p>
+<p></p>
+<p></p>
+</section>
+
+
+<section id = "property-listing">
+	<h id ="something1">
+	Property-Listing
+	</h>
+	<div id="fcontainer-box">
+		<div class ="white-box" onclick = "new puthere(imghouse1,imghouse2,imghouse3,imghouse1content)">
+			<img id ="sometimes" src ="DSCF0170.jpg" alt ="number1"></img>
+		</div>
+		<div class="white-box" onclick = "new puthere(imghouse4,imghouse5,imghouse6,imghouse2content)" >
+			<img id ="sometimes" src ="DSCF0169.jpg" alt ="number2"></img>
+		</div>
+		<div class="white-box" onclick = "new puthere(imghouse7,imghouse8,imghouse9,imghouse3content)">
+			<img id ="sometimes" src ="DSCF0151.jpg" alt ="number3"></img>
+		</div>
+		<div class="white-box" onclick = "new puthere(imghouse10,imghouse11,imghouse12,imghouse4content)">
+			<img id ="sometimes" src ="DSCF0130.jpg" alt ="number4"></img>
+		</div>
+		
+	</div>
+	<p id="anchor3"></p>
+	<p></p>
+<p></p>
+<p></p>
+<p></p>
+	</section>
+<section id = "furniture-and-accessories">
+	<h id="something2">
+	furniture and accessories
+	</h>
+	<div id="fcontainer-box">
+		<div class ="white-box" onclick = window.open("https://www.amazon.co.jp/%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E-%E3%83%9D%E3%83%BC%E3%83%AB%E5%BE%8425mm-%E5%B9%85120%C3%97%E5%A5%A5%E8%A1%8C46%C3%97%E9%AB%98%E3%81%95183-5cm-%E3%83%A1%E3%82%BF%E3%83%AB%E3%82%B7%E3%82%A7%E3%83%AB%E3%83%95-SE-1218/dp/B000WCEKN4/ref=pd_rhf_d_se_s_trq_dl_sccl_1_7/357-4810862-0681250?pd_rd_w=tu2ZS&content-id=amzn1.sym.bbab3105-dbb6-4847-88ce-54ee4e3f1025&pf_rd_p=bbab3105-dbb6-4847-88ce-54ee4e3f1025&pf_rd_r=MYAFAN2E02196XP8EX22&pd_rd_wg=3fXHh&pd_rd_r=4132f791-e632-4479-b0b4-1c96779a3439&pd_rd_i=B000WCEKN4&th=1")>
+			<img id ="sometimes" src ="casket1.jpg" alt ="casket1"></img>
+		</div>
+		<div class="white-box" onclick = window.open("https://www.amazon.co.jp/%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E-%E3%83%AA%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%81%E3%82%A7%E3%82%A2-%E8%85%B0%E9%83%A87%E6%AE%B5%E9%9A%8E%E3%83%BB%E3%83%98%E3%83%83%E3%83%89%E9%83%A814%E6%AE%B5%E9%9A%8E%E3%83%AA%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0-%E5%B9%85%E7%B4%8458%C3%97%E5%A5%A5%E8%A1%8C%E7%B4%8464-88%C3%97%E9%AB%98%E3%81%95%E7%B4%8491-5-101cm-WAC-L/dp/B07S83XW3Z/ref=sr_1_25?keywords=chair&qid=1692789587&sr=8-25") >
+			<img id ="sometimes2" src = "chair1.jpg" alt = "chair1"></img>
+		</div>
+		<div class="white-box" onclick = window.open("https://www.amazon.co.jp/-/en/Pearl-Metal-HB-4897-Enameled-inches/dp/B08CDK1JYR/ref=sr_1_28?crid=YXIPJZYT0GRF&keywords=cook+pot&qid=1694487483&sprefix=cook+pot%2Caps%2C247&sr=8-28")>
+			<img id ="sometimes3" src ="cookingpot1.jpg" alt ="pot1"></img>
+		</div>
+		<div class="white-box" onclick = window.open("https://www.amazon.co.jp/E600-Cyclone-Cleaner-Required-Lightweight/dp/B08Z3BSXCQ/ref=sr_1_4_sspa?crid=IJPOB3Z8EHGP&keywords=vacuum+cleaner&qid=1694487936&sprefix=vacuum+cleaner%2Caps%2C200&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1")>
+			<img id="sometimes4" src="vacuumcleaner1.jpg" alt="vacuumcleaner1"></img>
+		</div>
+		<div class="white-box" onclick = window.open("https://www.amazon.co.jp/-/en/Basket-Perfect-Storing-Condiments-Rust-Resistant/dp/B07SKGJVX8/ref=sr_1_10_mod_primary_new?crid=YTOT1OD1G9QN&keywords=condiments%2Brack&qid=1694487999&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=condiments%2Brack%2Caps%2C192&sr=8-10&th=1")>
+			<img id="sometimes5" src="condimentbasket1.jpg" alt="condimentsbasket1"></img>
+		]</div>
+
+		<div class="white-box" onclick = window.open("https://www.amazon.co.jp/-/en/Stylish-S-Shaped-Bedroom-Bedside-Display/dp/B0C2Z81PCT/ref=sr_1_10?crid=T9K3CUWWYT5I&keywords=furniture&qid=1694488137&sprefix=%2Caps%2C212&sr=8-10")>
+			<img id="sometimes6" src="tabletop1.jpg" alt="table1"></img>
+		</div> 
+		<div class="white-box" onclick = window.open("https://www.amazon.co.jp/-/en/gp/product/B078BPPFFS/ref=ewc_pr_img_1?smid=AQIPUQN3DQHS8&psc=1")>
+			<img id="sometimes7" src="strainer1.jpg" alt="strainer1"></img>
+		</div>
+		<div class="white-box" onclick = window.open("https://www.amazon.co.jp/Silent-Stylish-Lightweight-Scandinavian-Natural/dp/B0CCYB7YC7/ref=sr_1_2_sspa?keywords=clock&qid=1694488468&s=home&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1")>
+			<img id="sometimes8" src="clock1.jpg" alt="clock1"></img>
+		</div>
+		<div class ="white-box" onclick = window.open("https://www.amazon.co.jp/-/en/Tanita-TT-583-GR-Cooking-Thermometer/dp/B07RQ6VWDV/ref=sr_1_4?crid=1R4MUQR9RK7V3&keywords=cooking+thermometer&qid=1694488552&s=home&sprefix=cooking+ther%2Ckitchen%2C205&sr=1-4")>
+			<img id="sometimes9" src="cookingtherometer1.jpg" alt="cookingtherometer"></img>
+		</div>
+	</div>
+	<p id="anchor4"></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+
+</section>
+
+<section id = "contact-me">
+	
+	
+	<h id="something3">contact me</h><br>
+	
+	<img></img><br>
+	<p>Larry Chan graduated from the University of British Columbia</p><br>
+	<p>He has obtained the JLPT N1 in 2020.</p>
+	<div class="container border mt-3 bg-light">
+		<div class="row">
+		  <div class="col-md-6 p-5 bg-dark text-white">
+			<h1>Hi there!</h1>
+			<h4>
+			  Please use the form to contact me.
+			</h4>
+		  </div>
+		  <div class="col-md-6 border-left py-3">
+			<h1>Contact form</h1>
+			<div class="form-group">
+			  <h5 for="name">Name</h5>
+			  <input
+				type="text"
+				class="form-control"
+				id="name"
+				placeholder="Enter name"
+			  />
+			</div>
+			<div class="form-group">
+			  <h5 for="email">Email</h5>
+			  <input
+				type="email"
+				class="form-control"
+				id="email"
+				placeholder="Enter email"
+			  />
+			</div>
+			<div class="form-group">
+			  <h5 for="message">Message</h5>
+			  <textarea class="form-control" id="message" rows="3"></textarea>
+			</div>
+			<button class="btn btn-primary" onclick="sendMail()">Submit</button>
+		  </div>
+		</div>
+	  </div>
+	 
+</section>
+
+
+</body>
+<script>
+const body = document.querySelector("body");
+var canvas = document.getElementById("canvas");
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+var c = canvas.getContext('2d');
+var s = document.createElement('div');
+s.setAttribute('id', 'property-slideshow');
+var sclosebtn = document.createElement('button');
+sclosebtn.setAttribute('id', 'closebtn');
+sclosebtn.setAttribute('type','button');
+var sclosebtnimg = document.createElement('img');
+sclosebtnimg.setAttribute('id', 'closebtnid');
+sclosebtnimg.src= "close button.jpg";
+sclosebtn.appendChild(sclosebtnimg); 
+s.appendChild(sclosebtn);
+sclosebtnimg.onclick = s.remove();
+sclosebtn.addEventListener("click", function(){s.remove();})
+const snextbtn = document.createElement('button');
+snextbtn.setAttribute('id','nextbtn');
+snextbtn.setAttribute('type','button');
+var snextbtnimg = document.createElement('img');
+snextbtnimg.setAttribute('id','nextness');
+snextbtnimg.src = "next button.jpg"; 
+snextbtn.appendChild(snextbtnimg);
+s.appendChild(snextbtn);
+var spreviousbtn = document.createElement('button');
+spreviousbtn.setAttribute('id','previousbtn');
+spreviousbtn.setAttribute('type','button');
+s.appendChild(spreviousbtn);
+var spreviousbtnimg = document.createElement('img');
+spreviousbtnimg.setAttribute('id','previousness');
+spreviousbtnimg.src = "previous button.jpg";
+spreviousbtn.appendChild(spreviousbtnimg);
+var smainpicture = document.createElement('div');
+smainpicture.setAttribute('id','mainpicture');
+s.appendChild(smainpicture);
+var spicture1 = document.createElement('div');
+spicture1.setAttribute('id','picture1')
+s.appendChild(spicture1);
+var spicture2 = document.createElement('div');
+spicture2.setAttribute('id','picture2');
+s.appendChild(spicture2);
+var spicture3 = document.createElement('div');
+spicture3.setAttribute('id','picture3');
+s.appendChild(spicture3);
+var commentbox = document.createElement('div');
+commentbox.setAttribute('id','comment-box');
+s.appendChild(commentbox);
+var commentcontent1 = document.createElement('p');
+commentbox.appendChild(commentcontent1);
+commentcontent1.style.fontSize = "small";
+
+
+class Circle{
+constructor(){
+
+
+this.canvas = document.getElementById("canvas")
+this.ctx = canvas.getContext("2d")
+this.animation
+this.size = (innerHeight)/3;
+this.increament = 0.003
+this.count = 0
+
+requestAnimationFrame(this.animCircle.bind(this));
+}
+
+animCircle(){
+        
+this.count = this.count + this.increament;
+this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height)
+this.ctx.beginPath()
+this.ctx.lineWidth = 4
+this.ctx.arc((innerWidth/2),(innerHeight/2),this.size, 0, this.count * Math.PI)
+this.ctx.stroke()
+if(this.count > 2){
+whatever();
+}
+else{ 
+this.animation = requestAnimationFrame(this.animCircle.bind(this))
+
+}
+
+}
+}
+
+function whatever() {
+canvas.classList.toggle("fade");
+}
+
+function animatePathDrawing(c, x0, y0, x1, y1, x2, y2, duration) {
+var start = null;
+
+var step = function animatePathDrawingStep(timestamp) {
+    if (start === null)
+        start = timestamp;
+    
+    var delta = timestamp - start,
+        progress = Math.min(delta / duration, 1);
+    
+    
+    // Draw curve
+    drawBezierSplit(c, x0, y0, x1, y1, x2, y2, 0, progress);
+    
+    if (progress = 1) {
+        window.requestAnimationFrame(step);
+    c.save();
+    }
+};
+
+window.requestAnimationFrame(step);
+}
+
+/**
+* Draws a splitted bezier-curve
+* 
+* @param ctx       The canvas context to draw to
+* @param x0        The x-coord of the start point
+* @param y0        The y-coord of the start point
+* @param x1        The x-coord of the control point
+* @param y1        The y-coord of the control point
+* @param x2        The x-coord of the end point
+* @param y2        The y-coord of the end point
+* @param t0        The start ratio of the splitted bezier from 0.0 to 1.0
+* @param t1        The start ratio of the splitted bezier from 0.0 to 1.0
+*/
+function drawBezierSplit(c, x0, y0, x1, y1, x2, y2, t0, t1) {
+c.beginPath();
+
+if( 0.0 == t0 && t1 == 1.0 ) {
+    c.moveTo( x0, y0 );
+    c.quadraticCurveTo( x1, y1, x2, y2);
+} else if( t0 != t1 ) {
+    var t00 = t0 * t0,
+        t01 = 1.0 - t0,
+        t02 = t01 * t01,
+        t03 = 2.0 * t0 * t01;
+    
+    var nx0 = t02 * x0 + t03 * x1 + t00 * x2,
+        ny0 = t02 * y0 + t03 * y1 + t00 * y2;
+    
+    t00 = t1 * t1;
+    t01 = 1.0 - t1;
+    t02 = t01 * t01;
+    t03 = 2.0 * t1 * t01;
+    
+    var nx2 = t02 * x0 + t03 * x1 + t00 * x2;
+        ny2 = t02 * y0 + t03 * y1 + t00 * y2;
+    
+    var nx1 = lerp ( lerp ( x0 , x1 , t0 ) , lerp ( x1 , x2 , t0 ) , t1 ),
+        ny1 = lerp ( lerp ( y0 , y1 , t0 ) , lerp ( y1 , y2 , t0 ) , t1 );
+    
+    c.moveTo( nx0, ny0 );
+    c.quadraticCurveTo( nx1, ny1, nx2, ny2);
+}
+var as = function(){
+return this.c.lineWidth = 50;
+ };
+as();
+c.stroke();
+c.closePath();
+
+}
+
+function lerp(v0, v1, t) {
+return ( 1.0 - t ) * v0 + t * v1;
+}
+
+window.onload = function ani(){
+	
+	var circle = new Circle();
+	var line1 = new animatePathDrawing(c, ((600/1536)*innerWidth), ((200/736)*innerHeight), ((1100/1536)*innerWidth), ((200/736)*innerHeight), ((850/1536)*innerWidth), ((575/736)*innerHeight), 5000);
+	var line2 = new animatePathDrawing(c, ((750/1536)*innerWidth), ((140/736)*innerHeight), ((700/1536)*innerWidth), ((200/736)*innerHeight), ((610/1536)*innerWidth), ((575/736)*innerHeight), 5000);
+	var line3 = new animatePathDrawing(c, ((870/1536)*innerWidth), ((560/736)*innerHeight), ((820/1536)*innerWidth), ((520/736)*innerHeight), ((800/1536)*innerWidth), ((510/736)*innerHeight), 5000);
+}
+canvas.addEventListener("transitionend",() => {canvas.remove()})
+canvas.addEventListener("transitionend",() => {body.style.overflow= "scroll"})
+let index = 0;
+displayImages();
+function displayImages() {
+  let i;
+  const images = document.getElementsByClassName("images1");
+  for (i = 0; i < images.length; i++) {
+    images[i].style.display = "none";
+  }
+  index++;
+  if (index > images.length) {
+    index = 1;
+  }
+  images[index-1].style.display = "block";
+  setTimeout(displayImages, 20000); 
+}
+
+    function showindex(id){
+    document.getElementById(id).style.visiblity = "visible";
+};
+const smainpictureimg = document.createElement('img');
+smainpictureimg.setAttribute('id','showpic');
+smainpictureimg.src = "";
+const imghouse1 = document.createElement('img');
+imghouse1.src = "DSCF0170.jpg";
+imghouse1.setAttribute('id','imghouse1');
+const imghouse2 = document.createElement('img');
+imghouse2.src = "DSCF0128.jpg";
+imghouse2.setAttribute('id','imghouse2');
+const imghouse3 = document.createElement('img');
+imghouse3.src = "DSCF0111.jpg";
+imghouse3.setAttribute('id','imghouse3');
+const imghouse4 = document.createElement('img');
+imghouse4.setAttribute('id','imghouse4');
+imghouse4.src = "DSCF0169.jpg";
+const imghouse5 = document.createElement('img');
+imghouse5.setAttribute('id','imghouse5');
+imghouse5.src = "DSCF0163.jpg";
+const imghouse6 = document.createElement('img');
+imghouse6.setAttribute('id','imghouse6');
+imghouse6.src = "DSCF0159.jpg";
+const imghouse7 = document.createElement('img');
+imghouse7.setAttribute('id','imghouse7');
+imghouse7.src = "DSCF0151.jpg";
+const imghouse8 = document.createElement('img');
+imghouse8.setAttribute('id','imghouse8');
+imghouse8.src = "DSCF0150.jpg";
+const imghouse9 = document.createElement('img');
+imghouse9.setAttribute('id','imghouse9');
+imghouse9.src = "DSCF0152.jpg";
+const imghouse10 = document.createElement('img');
+imghouse10.setAttribute('id','imghouse10');
+imghouse10.src = "DSCF0130.jpg";
+const imghouse11 = document.createElement('img');
+imghouse11.setAttribute('id','imghouse11');
+imghouse11.src = "DSCF0131.jpg";
+const imghouse12 = document.createElement('img');
+imghouse12.setAttribute('id','imghouse12');
+imghouse12.src ="DSCF0135.jpg";
+var imghouse1content = "<p>It is located in Wakayama City</p><br><p>rent price: 49000yen</p><br><p>madori: 3LK</p><br><p>it's simplicity strikes me as a place for a calm and happy family</p>";
+var imghouse2content = "<p>It is located in Wakayama City</p><br><p>rent price: 54000yen</p><br><p>madori: 3DK </p><br><p>it's a place where the old meets the new when it comes to floor design</p>";
+var imghouse3content = "<p>It is located in Wakayama City</p><br><p>rent price: 50000yen</p><br><p>madori: 3LDK </p><br><p>it's ideal for a family where you can enjoy peace and quiet</p>";
+var imghouse4content = "<p>It is located in Wakayama City</p><br><p>rent price: 25000yen</p><br><p>madori: 1R </p><br><p>perfect for a student who wants to enjoy Wakayama for a year</p>";
+
+class puthere{ 
+	constructor (img1,img2,img3,par){
+	
+	let spicture1 = document.createElement('div');
+	spicture1.setAttribute('id','picture1')
+	s.appendChild(spicture1);
+	let spicture2 = document.createElement('div');
+	spicture2.setAttribute('id','picture2');
+	s.appendChild(spicture2);
+	let spicture3 = document.createElement('div');
+	spicture3.setAttribute('id','picture3');
+	s.appendChild(spicture3);
+    const slideshower = [];
+	this.img1 = img1;
+	this.img2 = img2;
+	this.img3 = img3;
+	slideshower[0] = this.img1;
+	slideshower[1] = this.img2;
+	slideshower[2] = this.img3; 
+	spicture1.appendChild(this.img1);
+	spicture2.appendChild(this.img2);
+	spicture3.appendChild(this.img3);
+	smainpictureimg.src = slideshower[0].src;
+	smainpicture.appendChild(smainpictureimg);
+	document.body.appendChild(s);
+	let currentindex = 0;
+	spicture1.style.borderColor = "blue";	
+	let spicturehighlighted = [spicture1,spicture2,spicture3];
+	commentbox.innerHTML = par;
+	closebtn.addEventListener("click", function(){commentcontent1.removeChild(par)})
+
+	const whatsup = snextbtn.addEventListener("click", function(){
+		slideshower.push(slideshower.shift());
+		smainpictureimg.src = slideshower[0].src;
+	
+		currentindex++;
+		if(currentindex > 0){
+		spicture1.style.borderColor = null;
+	}		
+	
+		if (currentindex == 1){
+		spicture2.style.borderColor = "blue"
+		}
+		else {
+			spicture2.style.borderColor = null;
+		};
+		
+		if (currentindex == 2){
+		spicture3.style.borderColor = "blue";
+		}
+		else {
+			spicture3.style.borderColor = null;
+		}
+		if(currentindex > 2){
+			currentindex = 0;
+			spicture1.style.borderColor = "blue";
+		}
+	}
+
+		)
+	const whatsdown = spreviousbtn.addEventListener("click", function(){
+		slideshower.unshift(slideshower.pop());
+		smainpictureimg.src = slideshower[0].src;
+		currentindex--;
+		if(currentindex < 0){
+			currentindex = 2;
+		};
+		if(currentindex > 0){
+		spicture1.style.borderColor = null;
+	}		
+	else{
+		spicture1.style.borderColor = "blue";
+	}
+	
+		if (currentindex == 1){
+		spicture2.style.borderColor = "blue"
+		}
+		else {
+			spicture2.style.borderColor = null;
+		};
+		
+		if (currentindex == 2){
+		spicture3.style.borderColor = "blue";
+		}
+		else {
+			spicture3.style.borderColor = null;
+		}
+		
+		
+	
+	})
+
+
+
+
+		
+}
+
+	
+
+
+
+	}
+	
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>
